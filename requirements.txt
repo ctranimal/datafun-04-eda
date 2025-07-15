@@ -16,7 +16,7 @@
 
 # This option uses the most current or default Python -
 # if an older version is required, use the ADVANCED OPTION below. 
-
+.ve
 # Create your local project virtual environment
 # This step ensures you have an isolated Python environment for your project.
 # This is typically just done once at the beginning of a project.
