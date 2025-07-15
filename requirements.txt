@@ -16,7 +16,7 @@
 
 # This option uses the most current or default Python -
 # if an older version is required, use the ADVANCED OPTION below. 
-.ve
+
 # Create your local project virtual environment
 # This step ensures you have an isolated Python environment for your project.
 # This is typically just done once at the beginning of a project.
@@ -168,33 +168,26 @@ loguru
 # TEXT-TO-SPEECH
 # ======================================================
 # Offline text-to-speech library for Python (1-15 MB)
-pyttsx3  
+# pyttsx3  
 
 # ======================================================
-# JUPYTERLAB (OPTIONAL, NEEDED FOR NOTEBOOKS)
+# JUPYTERLAB + NOTEBOOK SUPPORT
 # ======================================================
 
-# Next-generation web-based interactive development environment for Jupyter notebooks, code, and data.
-# Offers a more feature-rich and versatile experience than the classic Jupyter Notebook. (60-70 MB)
+# Optional: Next-generation Jupyter IDE (~60-70 MB). Use if working in JupyterLab directly.
 # jupyterlab
 
-# Core IPython package that provides an enhanced interactive Python shell (10-15 MB).
-ipython
-
-# Core Jupyter functionality required for running notebooks in VS Code (50-60 MB).
+# Core Jupyter functionality required for running notebooks in VS Code (~50-60 MB).
 jupyter
 
 # Kernel interface for Jupyter notebooks (required for proper kernel registration)
 ipykernel
 
-# Interactive widgets (often used in notebooks).
+# Core IPython shell for enhanced interactivity in notebooks (~10–15 MB).
+ipython
+
+# Optional: Interactive widgets for Jupyter notebooks (sliders, dropdowns, etc.)
 ipywidgets
-
-# tool for “diffing” and merging of Jupyter Notebooks
-nbdime
-
-# a JupyterLab extension for version control using git
-jupyterlab-git
 
 # ======================================================
 # EXCEL FILE READING AND WRITING
@@ -214,28 +207,16 @@ jupyterlab-git
 # pyexcel
 
 # ======================================================
-# DATA STORAGE, TRANSFORMATION, AND ORCHESTRATION
+# DATA STORAGE AND RETRIEVAL 
 # ======================================================
 
 # SQLite database support (sqlite3 is built into Python, no install needed)
 
-# DuckDB: A lightweight, serverless OLAP database for Python (5-10 MB).
+# DuckDB: A lightweight, serverless database for Python (5-10 MB).
 # duckdb
 
-# ORM for SQL databases (~10 MB) such as PostgreSQL, MySQL, and SQLite
+# ORM for SQL databases (~10 MB) when sqlite3 is not enough
 # sqlalchemy  
-
-# DBT Core: SQL-based transformation tool (~60-80 MB)
-# dbt-core
-
-# DBT DuckDB Adapter: Allows dbt to run on DuckDB (~20-30 MB)
-# dbt-duckdb
-
-# SQLMesh: Alt. to DBT for declarative data transformations in SQL, Python (~30–50 MB)
-# sqlmesh
-
-# Workflow orchestration for Python tasks (~30-50 MB)
-# prefect>=2.0
 
 # ======================================================
 # DATA ANALYSIS 
@@ -340,24 +321,3 @@ seaborn
 
 # For request validation and serialization in FastAPI (5-10 MB)
 # pydantic     
-# ======================================================
-# NETWORKING / HTTP
-# ======================================================
-requests
-# ======================================================
-# EXCEL FILE READING AND WRITING
-# ======================================================
-
-# Primary library for Excel (both .xls and .xlsx); handles formulas, charts, formatting (~8 MB)
-# Used by pandas and other libraries.
-openpyxl
-
-# For writing advanced Excel files (.xlsx)
-# xlsxwriter
-
-# Only for reading older Excel files (.xls) since version 2
-# xlrd
-
-# Optional: For unified access to different spreadsheet formats
-# pyexcel
-
