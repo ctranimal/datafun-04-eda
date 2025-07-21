@@ -1,7 +1,7 @@
 # Ken McTran -- Exploratory Data Analysis with Jupyter Notebooks
 
 ## Purposes
-    The purpose of this repository (thus far) is to implement steps 1 & 2 of the project.
+    The purpose of this repository  is to implement steps 1->9 of the project.
     See documentation here for details: https://nwmissouri.instructure.com/courses/71203/discussion_topics/582071 
 
 ## Workflow:
@@ -16,3 +16,6 @@
    
 ## Within VS Code (on Mac):
     click on "Run All" on the "tran-notebook.ipynb" to execute both Markdown & Python cells within a .ipynb notebook.
+    
+## Within the file tran-notebook.ipynb
+    Since this is a *.ipynb file, within VS Code or via a browser, read annotated sections of observations and graphs.
